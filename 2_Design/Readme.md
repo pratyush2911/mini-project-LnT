@@ -2,12 +2,17 @@
 
 ## High Level Design 
 
-![HighLevelStructuralDiagram](https://meeraacademy.com/wp-content/uploads/2017/08/Activity.png)
 
-![HighLevelBehaviouralDiagram](https://d3n817fwly711g.cloudfront.net/uploads/2014/06/Library-Management-1024x780.png)
+![image](https://user-images.githubusercontent.com/86132605/124623429-9d93be00-de99-11eb-925b-a8c2fa80dc9f.png)
+
+
+
+![use case diag](https://user-images.githubusercontent.com/86132605/124623636-c3b95e00-de99-11eb-90be-e2adc6b70bd1.jpg)
+
 
 ## Low Level Design 
 
 ![FeaturesLevelStructuralDiagram](https://3.bp.blogspot.com/-5k0KCHbFEcM/WNdXdA9kN5I/AAAAAAAACEw/ie5Q8H539u8j5AFjhnEqKQa9l_aEGWwwgCLcB/s1600/library-user-flow-diagram.png)
 
-![FeaturesBehaviouralDiagram](https://sites.google.com/site/ignoubcafinalyearprojects/_/rsrc/1479403366011/project-report/library-management-system-project-report/DATA%20FLOW%20DIAGRAM%20FOR%20BOOK%20SEARCH%20-%20library%20management%20system.jpg)
+![low level dia](https://user-images.githubusercontent.com/86132605/124624140-3f1b0f80-de9a-11eb-88bc-54cd57e3b060.jpg)
+
