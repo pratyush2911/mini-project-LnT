@@ -5,7 +5,7 @@ Any library member should be able to search books by their access number.
 Each book will have a unique identification number, also known as access number and other details including title, author and availability in library which will help to know about the book.
 There could be more than one copy of a book and each copy is assigned a unique access number.
 The system should be able to retrieve information like who took a particular book or what are the books checked-out by a specific library member.
-There should be a maximum limit (5) on how many books a member can check-out.
+There should be a maximum limit on how many books a member can check-out.
 The system should be able to tell if a book is beyond the duea date or not by retrieving the current date of the system.
 Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
 
