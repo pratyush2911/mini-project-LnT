@@ -1,3 +1,4 @@
+#include "header.h"
 void Stock()
 {
     int i,issuecount=0,stockcount=0;
