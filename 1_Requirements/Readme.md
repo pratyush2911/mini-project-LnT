@@ -1,34 +1,36 @@
 # Requirements
 ## Introduction
-This project “Library Management System In C Programming” is complete and totally-error free clean code. The main goal of this project is to add books, view books, search books, edit books record and delete books within this system. It is named as “Library Management System”.
+Library management systems provides an online interface to allow visitors to view or reserve library resources. Now a days there are so many ideas and views regarding each topic that are being penned down proportionately number of authors and so are books increasing. Keeping track of these numerous books ,retrieval and submission back, after borrowing manually can prove to be very hectic. Hence this software to keep track of all the details and retrieve any data in a jiffy.
+Any library member should be able to search books by their access number.
+Each book will have a unique identification number, also known as access number and other details including title, author and availability in library which will help to know about the book.
+There could be more than one copy of a book and each copy is assigned a unique access number.
+The system should be able to retrieve information like who took a particular book or what are the books checked-out by a specific library member.
+There should be a maximum limit (5) on how many books a member can check-out.
+The system should be able to tell if a book is beyond the duea date or not by retrieving the current date of the system.
+Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
+
 
 ## Research
-As the library and information services community seeks to cope with new patterns of information provisions, new technology and new financial circumstances, the latest research, innovative theory and organizational best practice are all combined in the journal, Library Management . This world-class information resource offers international perspectives on the critical issues facing library management by publishing articles which report contemporary thought whilst also exploring practical implications for those involved in teaching and practice. Library Management provides knowledge and practical perspectives on all aspects of the management of libraries and information services by drawing contributions from distinguished international figures. All of this builds into an informative, refereed journal, which will prove invaluable to managing a library or information service cost effectively, while meeting the needs of its users.
+•	The number of students studying in a school or a university are much more than one can think of keeping a track of records for the students. Register based system to keep a track on books is still being used in some of the schools, but as the number of students as well the number of the books increase, it becomes difficult to manage the records.
+•	Library Checkout is an efficient library management system in which a student can search the book by it's name to know whether it is available in the library or not, helps in creating an entry for the one who wants to issue a book as well as deletiion of that entry when the book being returned.
 
 ## Cost and Features
 ### Features of Library Management System
-* Add books
-* Search books
-* View books
-* Edit book's record
-* Delete books
-* Close application
+•	COST – more features more more cost
+•	FEATURES
+*	Add books
+*	Search books
+*	View books
+*	Delete books
+*	Update Credentials
 
 ## Defining Our System
-![State Diagram](https://4.bp.blogspot.com/-X7xkxpUUNWI/T26v6BHDnTI/AAAAAAAAANM/uUG5U0QFxwU/s1600/uml+state+diagram+for+library+mgmt+Librarian.JPG)
+![image](https://user-images.githubusercontent.com/86132605/124605173-471e8380-de89-11eb-9157-50cd52d97f6e.png)
+
 
 ## SWOT ANALYSIS
-* ### Strengths
-Assessing a library's strengths, areas in which it is already successful, includes looking at staff skills and competencies, programming, budget maintenance and community relations. Planning for the library's future based on its strengths should include ways to maintain and improve existing success.
+![image](https://user-images.githubusercontent.com/86132605/124605335-6c12f680-de89-11eb-8286-beec7cf5af02.png)
 
-* ### Weaknesses
-Analyzing a library's weaknesses also means evaluating internal operations. G. Edward Evans and Patricia Layzell Ward, authors of "Management Basics for Information Professionals," point out that weaknesses may lie in the same areas as strengths. Careful analysis of library weaknesses suggests which areas need improvement. Weaknesses also identify areas that need attention to reduce the negative impact of their weaknesses.
-
-* ### Opportunities
-Factors outside the library itself should be evaluated to see what could be acted upon to benefit the library. Library opportunities may present themselves in "economic, political/legal, technological, or sociocultural environments," says Anthony C. Danca in his analysis of SWOT. For example, awareness of a high economic status of the library's main patron base provides a population likely to participate in fund-raising activities.
-
-* ### Threats
-Analyzing library threats also means evaluating factors outside the library that hinder its success. Like opportunities, many threats stem from the economic and political environment, says Danca. For example, economic downturns threaten to reduce the budgets of publicly funded libraries. Maintaining current awareness of threats allows the library administration to plan and act. This area requires frequent attention because the external environment often changes quickly.
 
 # 4W&#39;s and 1&#39;H
 
@@ -39,7 +41,6 @@ Schools, colleges and institutions have started using this library management sy
 ## What:
 
 Building an automated library management to have a safe and secure record of book entries in a real library.
-
 ## When:
 
 2010s–present: the rise of cloud based solutions
@@ -59,26 +60,21 @@ This problem may cause ineffective management and hence there can be a huge amou
 ## High Level Requirements: 
 | ID | Description | Status | 
 | ----- | ----- | --------- |
-| 1 | User shall be able to add new book record | Implemented | 
-| 2 | User shall be able to read a book record | Implemented |
-| 3 | User shall be able to update a book record | Implemented |
-| 4 | User shall be able to delete a book record | Implemented |
-| 5 | User shall be able to save records in a file | Implemented |
-| 6 | User shall be able to read data from a file | Implemented |
-| 7 | Data should not be lost in case of failure | Future |
-| 8 | Data should always be stored when closing the system | Future |
+HR01	User shall be able to add new book|	Techincal|	Implemented|
+HR02	User shall be able to display all the books	|Techincal|	Implemented|
+HR03	User shall be able to search books by name	|Techincal	|Implemented|
+HR04	User shall be able to search books by author	|Techincal	|Implemented|
+HR05	User shall be able to display the books count	|Techincal	|Implemented|
+HR06	User shall be able to delete the book	Scenario	|Future|
 
 
 ##  Low level Requirements:
  
 | ID | Description | Status (Implemented/Future) |
 | ------ | --------- | ----- |
-| 1 | New record shall be added by providing all the asked information and the id should be unique or else user record should not be accepted. | Implemented |
-| 2 | Reading patient data should be possible in 2 ways, first being by searching by id of a patient and second by printing all the records available | Implemented |
-| 3 | While reading all the records, only 10 records per page should be visible and should add 10 more if user wants to see more | Future |
-| 4 | If user searches for an invalid ID "No Record Found" message should be displayed | Implemented |
-| 5 | User need to search by id for the user record to be updated, if no such record is available then "No Record Found" Message should be displayed | Future |
-| 6 | User need to search by id for the user record to be deleted, if no such record is available then "No Record Found" Message should be displayed | Future |
-| 7 | User shall be able to save the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | Future |
-| 8 | If opening the file fails, then the system shloud prompt the message "Unable to access file" and should not end the program execution | Future |
-| 9 | When user Log off the system, message shall be prompted asking the user to save new records to file before exiting or not | Future |
+|LR01|	User shall be able to add a new books with details like name of the book, name of the author , number of pages and cost of the book	|HR01|	Implemented|
+|LR02|	User shall be able to display the all books present in the library all with the details like name of the book, name of the author ,number of pages and cost of the book	|HR02|Implemented|
+|LR03|	User shall be able to search the book by its name if that book is not available then display the menu to chose any other option	|HR03	|Implemented|
+|LR04	|User shall be able to search the book by its authors name if that book is not available then display the menu to chose any other option	|HR04	|Implemented|
+|LR05|	User shall be able to display the count of total number of books in the library	|HR05|	Implemented|
+|LR06|User shall be able to exit from the program if no option is needed to perform	|HR01 ,HR02, HR03, HR04,HR05|	Implemented|
